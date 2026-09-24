@@ -1,7 +1,7 @@
-fun main() {
-    // WHAT?
-    println("Hello, world!") 
-    val customers = 10 
-    var d: Int = 3 
-    println("There are $customers customers") 
-}
+// COLLECTION
+    val readOnlyShapes = listOf("triangle", "square", "circle") 
+    println(readOnlyShapes) 
+    val readOnlyFruit = setOf("apple", "banana", "cherry", "cherry") 
+    println(readOnlyFruit) 
+    val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100) 
+    println(readOnlyJuiceMenu)
