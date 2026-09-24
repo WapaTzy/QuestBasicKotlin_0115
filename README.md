@@ -1,2 +1,2 @@
 ## Hasil Running
-![Screenshot kotlin](screenshot.png)
+![Screenshot kotlin](Screenshot.png)
