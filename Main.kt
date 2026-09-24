@@ -1,7 +1,14 @@
-// COLLECTION
-    val readOnlyShapes = listOf("triangle", "square", "circle") 
-    println(readOnlyShapes) 
-    val readOnlyFruit = setOf("apple", "banana", "cherry", "cherry") 
-    println(readOnlyFruit) 
-    val readOnlyJuiceMenu = mapOf("apple" to 100, "kiwi" to 190, "orange" to 100) 
-    println(readOnlyJuiceMenu)
+// Conditional expressions
+    val check = true 
+    if (check) { d = 1 } else { d = 2 }
+    val obj = "Hello" 
+    val result = when (obj) { 
+        "1" -> "One" 
+        "Hello" -> "Greeting" 
+        else -> "Unknown" 
+    }
+    println(result) 
+
+    // Loops & Ranges
+    for (number in 1..5) { print(number) }
+    println())
