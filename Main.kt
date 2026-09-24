@@ -12,3 +12,14 @@
     // Loops & Ranges
     for (number in 1..5) { print(number) }
     println())
+
+fun sum(x: Int, y: Int): Int { return x + y }
+fun printMessageWithPrefix(message: String, prefix: String = "Info") { 
+    println("[$prefix] $message") 
+}
+
+// Functions
+    println(sum(1, 2)) 
+    printMessageWithPrefix(prefix = "Log", message = "Hello") 
+    // Lambda expressions
+    println({ string: String -> string.uppercase() }("hello")) 
